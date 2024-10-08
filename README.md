@@ -19,11 +19,17 @@ The Road Type Classifier is a machine learning project aimed at classifying diff
 🔍Features
 
 👉Classifies road images into four categories: snowy, icy, pothole, and wet roads.
+
 👉Utilizes TensorFlow with `tf.keras' for model training and evaluation.
+
 👉Implements a CNN architecture for robust image classification of road conditions.
+
 👉Accurately categorizes images into four types of road conditions: ❄️ snowy, 🧊 icy, 🕳️ pothole, and 🌧️ wet.
+
 👉Includes image resizing and normalization techniques to prepare data for training.
+
 👉Evaluates model performance using training and validation datasets.
+
 👉Provides tools for visualizing accuracy and loss during training.
 
 ⚙️Tech Stack
