@@ -14,6 +14,7 @@ TIP: Use 'Download All Images' Chrome Extension for easy download.
 💡Overview
 
 The Road Type Classifier is a machine learning project aimed at classifying different types of road conditions using image data.
+
 🔋This project uses convolutional neural networks (CNN) to identify and categorize roads into four types: snowy, icy, pothole, and wet.
 
 🔍Features
@@ -35,9 +36,13 @@ The Road Type Classifier is a machine learning project aimed at classifying diff
 ⚙️Tech Stack
 
 👉Python
+
 👉TensorFlow
+
 👉Keras
+
 👉NumPy
+
 👉Matplotlib
 
 
@@ -56,13 +61,19 @@ cd Road_Type_classifier
 ⚙️Training the Model 
 
 🤖The model consists of:
+
 👉Convolutional Layers to extract features from images.
+
 👉Max Pooling Layers to reduce dimensionality and retain important features.
+
 👉Dense Layers to make predictions based on the extracted features.
+
 👉The final layer uses Softmax for multi-class classification, predicting one of four road conditions.
 
 🤖The model is trained with road image data, using:
+
 👉Categorical Cross-Entropy as the loss function.
+
 👉Adam Optimizer for efficient training.
 
 
